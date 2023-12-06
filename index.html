@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+      
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 10px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color:black;
+}
+
+#heading-pic{
+  width: 30%;
+  border-radius: 100%;
+
+}
+    </style>
+  </head>
+  <body>
+<!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary" id="mainNav">
+            <div class="container px-4 px-lg-8">
+              <span  style="font-size: xxx-large; font-weight: bold;" class="navbar-brand">
+                <img id="heading-pic" src="images/portfolio.png" alt="portfolio"> EJ
+              </span>
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-collapse collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                  <li class="nav-item">
+                    <a style="color: white; font-weight: bold; font-size: x-large;" class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a style="color: white; font-weight: bold;font-size: x-large;"  class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a style="color: white; font-weight: bold;font-size: x-large;" class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+         </nav>
+
+<!-- Intro -->
+
+        <div class="container my-5">
+          <div class="row align-items-center rounded-3 border shadow-lg">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+              <h1 class="display-4 fw-bold lh-1 text-body-emphasis py-5">Data, Design, Development and Analysis</h1>
+              <h3 class="pb-2 border-bottom py-3">Hi I am Ezhilarasan,</h3>
+              <h3 class="my-4">I am a junior developer in the field of data analysis and data science,
+                and i also work on web and app development</h3>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                <a href="resume.html"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Resume</button></a>
+              </div>
+            </div>
+            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+              <img class="rounded-lg-3 col-md-12 px-5 py-5" src="images/ej.jpg" alt="" width="100%">
+            </div>
+          </div>
+        </div>
+        
+        
+<!-- beginner or different type projects in cards -->
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Beginner Projects</h2>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-light rounded-4 shadow-lg">
+              <img src="images/data-science.jpg" alt="data science">
+              <h3 class="m-3 display-6 lh-1 fw-bold">Project1</h3>
+                <ul class="d-flex list-unstyled mb-2">
+                  <li class="me-auto">
+                    <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub" width="32" height="32" class="rounded-circle border border-white"><span class="m-2"><a href="">View code</a></span>
+                  </li>
+                </ul>
+          </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-light rounded-4 shadow-lg">
+              <img src="images/tic tac toe game.png" alt="data science">
+              <h3 class="m-3 display-6 lh-1 fw-bold">Project2</h3>
+                <ul class="d-flex list-unstyled mb-2">
+                  <li class="me-auto">
+                    <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub" width="32" height="32" class="rounded-circle border border-white"><span class="m-2"><a href="">View code</a></span>
+                  </li>
+                </ul>
+          </div>
+          </div>
+    
+          <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-light rounded-4 shadow-lg">
+                <img src="images/blog-img.jpg" alt="data science">
+                <h3 class="m-3 display-6 lh-1 fw-bold">Project3</h3>
+                  <ul class="d-flex list-unstyled mb-2">
+                    <li class="me-auto">
+                      <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub" width="32" height="32" class="rounded-circle border border-white"><span class="m-2"><a href="">View code</a></span>
+                    </li>
+                  </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+<!-- Advanced or different type projects in carousel -->
+
+      <div class="container">
+        <h2 class="pb-2 border-bottom">Advanced Projects</h2>
+      </div>
+      <article class="my-3" id="carousel">
+        <div>
+          <div class="bd-example-snippet bd-code-snippet"><div class="bd-example m-0 border-0">
+          <div id="carouselExampleCaptions" class="carousel slide container ml-5" data-bs-ride="carousel" style="background-color: #CDF5FD;">
+            <!-- <div class="carousel-indicators" style="background-color: aquamarine;">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
+            </div> -->
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                 <div class="container col-md-6 px-5 py-5 "  >
+                  <div class="card card-cover h-100 overflow-hidden text-bg-light rounded-4 shadow-lg">
+                    <img src="images/data-science.jpg" alt="data science">
+                    <h3 class="m-3 display-6 lh-1 fw-bold">Project1</h3>
+                      <ul class="d-flex list-unstyled mb-2">
+                        <li class="me-auto">
+                          <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub" width="32" height="32" class="rounded-circle border border-white"><span class="m-2"><a href="">View code</a></span>
+                        </li>
+                      </ul>
+                  </div>
+                </div>
+                </div>
+
+
+              <div class="carousel-item">
+                <div class="container col-md-6 px-5 py-5 "  >
+                  <div class="card card-cover h-100 overflow-hidden text-bg-light rounded-4 shadow-lg">
+                    <img src="images/tic tac toe game.png" alt="game tic tac toe">
+                    <h3 class="m-3 display-6 lh-1 fw-bold">Project2</h3>
+                      <ul class="d-flex list-unstyled mb-2">
+                        <li class="me-auto">
+                          <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub" width="32" height="32" class="rounded-circle border border-white"><span class="m-2"><a href="">View code</a></span>
+                        </li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="container col-md-6 px-5 py-5 " >
+                  <div class="card card-cover h-100 overflow-hidden text-bg-light rounded-4 shadow-lg">
+                    <img src="images/blog-img.jpg" alt="blog">
+                    <h3 class="m-3 display-6 lh-1 fw-bold">Project3</h3>
+                      <ul class="d-flex list-unstyled mb-2">
+                        <li class="me-auto">
+                          <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub" width="32" height="32" class="rounded-circle border border-white"><span class="m-2"><a href="">View code</a></span>
+                        </li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Prev</span>
+            </button>
+          </div>
+          </div></div>
+        </div>
+      </article>
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-8 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Ezhilarasan A</span>
+      </div>
+  
+      <ul class="nav col-md-3 justify-content-end list-unstyled d-flex">
+        <li class="m-2">
+          <a href="https://github.com/"><img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub" width="60"  class="rounded-circle border border-white">
+          </a>
+          <a href="https://www.instagram.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="instagram" width="50"  class="rounded-circle border border-white">
+          </a>  
+          <a href="https://www.facebook.com/"><img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="facebook" width="50"  class="rounded-circle border border-white">
+          </a>  
+        </li> 
+        </ul>
+    </footer>
+</div>
+</html>
